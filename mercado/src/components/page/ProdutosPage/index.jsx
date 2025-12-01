@@ -11,7 +11,7 @@ function ProdutosPage() {
         { id: 1, title: 'Arroz', desc: 'Valor R$ 5,89' },
         { id: 2, title: 'Feijão', desc: 'Valor R$ 7,43' },
         { id: 3, title: 'Farinha', desc: 'Valor R$ 3,34' },
-        { id: 4, title: 'Cafe', desc: 'Valor R$ 10,45' },
+        { id: 4, title: 'Café', desc: 'Valor R$ 10,45' },
         { id: 5, title: 'Macarrão', desc: 'Valor R$ 7,34' },
         { id: 6, title: 'Carne', desc: 'Valor R$ 25,65' },
     ]
