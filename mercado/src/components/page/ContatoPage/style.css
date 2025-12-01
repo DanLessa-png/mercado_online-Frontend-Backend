@@ -1,0 +1,138 @@
+/* Estilo para Contato (Fale Conosco) Page - Tema Escuro */
+
+.fale-conosco {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 40px;
+  background: linear-gradient(135deg, #0e1624 0%, #0b1220 100%);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(2, 6, 23, 0.6);
+  color: #e6eef8;
+  min-height: calc(100vh - 120px);
+}
+
+.fale-conosco h1 {
+  color: #ffffff;
+  margin-top: 0;
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.fale-conosco > p {
+  color: #cbd5e1;
+  font-size: 0.95rem;
+  margin-bottom: 24px;
+}
+
+.contact-actions {
+  display: flex !important;
+  gap: 12px !important;
+  align-items: center !important;
+  margin-bottom: 24px !important;
+  flex-wrap: wrap;
+}
+
+.call-link,
+.whatsapp-link {
+  flex: 1;
+  min-width: 150px;
+}
+
+.call-btn,
+.contact-actions button {
+  width: 100%;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 0.95rem;
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
+  color: white;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+.contact-actions button:hover,
+.call-btn:hover {
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.4);
+  transform: translateY(-2px);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form div label {
+  display: block;
+  color: #9bd0ff;
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  background: #0b1724;
+  color: #e6eef8;
+  font-family: inherit;
+  font-size: 0.9rem;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.form input:focus,
+.form textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 12px rgba(37, 99, 235, 0.2);
+}
+
+.form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form button {
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
+  color: white;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+.form button:hover {
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.4);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 640px) {
+  .fale-conosco {
+    margin: 24px;
+    padding: 24px;
+  }
+
+  .fale-conosco h1 {
+    font-size: 1.5rem;
+  }
+
+  .contact-actions {
+    flex-direction: column;
+  }
+
+  .call-link,
+  .whatsapp-link {
+    width: 100%;
+  }
+}

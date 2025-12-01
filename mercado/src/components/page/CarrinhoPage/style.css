@@ -1,0 +1,15 @@
+/* Estilos básicos para a página de carrinho */
+.carrinho {
+  padding: 1rem;
+}
+.carrinho__header h1 {
+  margin: 0 0 1rem 0;
+}
+.carrinho__list ul {
+  list-style: none;
+  padding: 0;
+}
+.carrinho__item {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
